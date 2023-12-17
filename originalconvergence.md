@@ -1,0 +1,5 @@
+The researcher used rStan to run their analyses. They utilized the default sampler in the package: the NUTS sampler (No-U-Turn sampler; Hoffman & Gelman, 2011, Betancourt, 2017).
+
+The trace plots to the left indicate that all parameters reached convergence after running two chains with 5,000 burn-in samples and drawing 5,000 samples for the posterior (the greyed out half of the plots represent burn-in). This is further confirmed by the R-hat convergence diagnostics that are close to 1, and the large effective sample size (ESS). Specifically, the ESS represents the number of independent samples that have the same precision as the total number of autocorrelated (dependent) samples in the posterior chains. Zitzmann and Hecht (2019) recommend that ESSs over 1000 are required to ensure that there is enough precision in the chain.
+
+Finally, the smoothness of the posterior density plots and histograms at the bottom of this page indicate that the posterior distributions are represented well and contain enough information.

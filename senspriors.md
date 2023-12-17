@@ -1,0 +1,1 @@
+Take a look at the density plot below to see how the alternative priors compare to the original prior distribution specified by the researcher. The darkest density distribution matches the original prior, while the lighter colored distributions match the alternative priors specified in the panel to the left.

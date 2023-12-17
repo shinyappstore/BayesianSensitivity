@@ -1,0 +1,3 @@
+The data for this example consist of responses from 100 participants, all of whom were college students participating in a research study for course credit. The model we constructed here included the following two predictors of cynicism (higher values indicate greater cynicism): sex (female = 0, male = 1) and the lack of trust the participant has in other people (higher values indicate less trust in others).
+
+The regression model is displayed to the left. The main parameters of interest for this model are the regression weights, which are denoted by the lines connecting the predictors to the outcome of cynicism. 
